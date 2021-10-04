@@ -48,8 +48,8 @@
         background: url('../img/NEAR Promises.png') no-repeat;
         background-position: 10% 0;
     }
-    .bg-text-color::after {
-
+    .bg-form {
+        background: rgba(0, 0, 0, 0.63);
     }
 
     .section-shadow {
@@ -58,5 +58,23 @@
     .left-bg {
         background: url("../img/Down abs.png") no-repeat;
         background-position: 0 100%;
+    }
+    @screen md {
+        .creation-bg {
+            background: url("../img/ABS (1).png") no-repeat;
+            background-position: 100% 0;
+            background-size: contain;
+        }
+        .editor-bg {
+            background: url("../img/ABS (2).png") no-repeat;
+            background-position: 100% 0;
+            background-size: contain;
+        }
+        .confirmation-bg {
+           background: url("../img/ABS (3).png") no-repeat;
+           background-position: 100% 0;
+           background-size: contain;
+       }
+
     }
 }
