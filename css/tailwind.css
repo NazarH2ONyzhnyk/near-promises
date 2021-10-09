@@ -51,13 +51,29 @@
     .bg-form {
         background: rgba(0, 0, 0, 0.63);
     }
-
+    .triangle-4 {
+        background: url('../img/triangle 4.png') no-repeat;
+        /* background-size: contain; */
+        background-position: 0 100%;
+    }
     .section-shadow {
         box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.35);
     }
     .left-bg {
         background: url("../img/Down abs.png") no-repeat;
         background-position: 0 100%;
+    }
+    .alert {
+        width: 279px;
+    }
+    @screen md {
+        .alert {
+            width: 488px;
+        }
+        
+    }
+    .bg-50 {
+        background-color: rgba(0, 0, 0, 0.7);
     }
     @screen md {
         .creation-bg {
