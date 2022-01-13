@@ -17,14 +17,32 @@ module.exports = {
           500: "#2A65FC",
         },
         orange: {
+          10: "#EB8C5C",
+          20: "#EBA215",
+          500: "#DC2828",
           400: "#FF7A00",
           500: "#DC2828",
         }
+      },
+      width: {
+        '61': '60px',
+        '74': '74px',
+        '376': '376px',
+      },
+      height: {
+        '31': '30px',
+        '37': '37px',
+        '61': '60px',
+        '74': '74px',
+        '140': '140px',
       }
     },
+
   },
   variants: {
-    extend: {},
+    extend: {
+      scale: ['active']
+    },
   },
   plugins: [],
 }
