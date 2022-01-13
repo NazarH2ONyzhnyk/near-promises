@@ -23,7 +23,7 @@
     </button>
 
     <!-- Deploy section -->
-    <div class="fixed z-40 bottom-0 left-50 sm:right-36 w-376 bg-gradient-to-b from-orange-20 to-orange-10 hover:from-blue-10 hover:to-blue-10 rounded-t-xl text-white hover:text-black shadow-3xl">
+    <div class="fixed z-40 bottom-0 left-50 sm:right-36 w-full md:w-376 bg-gradient-to-b from-orange-20 to-orange-10 hover:from-blue-400 hover:to-blue-500 rounded-t-xl text-white shadow-3xl">
 
         <!-- Close button (x) -->
         <button class="absolute z-20 top-4 right-4">
@@ -76,6 +76,7 @@
         </div>
 
     </div>
+
     <!-- Popup form wrapper-->
     <div class="fixed top-0 left-0 z-40 w-full min-h-screen  flex items-center justify-center">
         
@@ -248,7 +249,9 @@
                         <div class="flex items-center justify-between">
                             <a href="#" class="hidden md:flex btn-blue">
                                 Login with NEAR
-                                <img src="./img/near_logo_stack 2 1.png" class="ml-3" alt="">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 mb-1" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                                    <path d="M18.1529 1.58732L13.6085 8.20587C13.2943 8.6566 13.8986 9.20222 14.3337 8.82266L18.8056 5.00335C18.9264 4.90846 19.0957 4.97963 19.0957 5.14568V17.0781C19.0957 17.2441 18.8781 17.3153 18.7814 17.1967L5.24485 1.30266C4.80975 0.780763 4.18127 0.496094 3.48027 0.496094H2.99682C1.73985 0.496094 0.700439 1.51616 0.700439 2.77344V19.5689C0.700439 20.8262 1.73985 21.8463 3.02099 21.8463C3.81868 21.8463 4.56803 21.443 5.00313 20.755L9.54755 14.1365C9.86179 13.6858 9.25748 13.1401 8.82237 13.5197L4.35048 17.3153C4.22961 17.4102 4.06041 17.339 4.06041 17.1729V5.2643C4.06041 5.09824 4.27796 5.02707 4.37465 5.14568L17.9112 21.0397C18.3463 21.5616 18.999 21.8463 19.6758 21.8463H20.1592C21.4404 21.8463 22.4798 20.8262 22.4798 19.5689V2.77344C22.4556 1.51616 21.4162 0.496094 20.1351 0.496094C19.3374 0.496094 18.588 0.899375 18.1529 1.58732Z" fill="currentColor"/>
+                                </svg>
                             </a>
                             <a href="#" class="ml-2 lg:hidden"><img src="./img/menu.png" alt=""></a>
                         </div>
@@ -460,8 +463,8 @@
                 <img src="./img/pose-2.png" alt="" class="absolute top-0 right-0">
                 <img src="./img/pose-3.png" alt="" class="absolute bottom-0 left-0">
                 <img src="./img/pose-4.png" alt="" class="absolute bottom-0 right-0">
-                <img src="./img/hand_1.png" alt="" class="absolute top-64 left-80">
-                <img src="./img/hand_2.png" alt="" class="absolute top-96 right-80">
+                <img src="./img/hand_1.png" alt="" class="absolute top-64 left-80 hidden md:block">
+                <img src="./img/hand_2.png" alt="" class="absolute top-96 right-80 hidden md:block">
 
                 <div class="h-full flex flex-col items-center justify-center" style="z-index: 10;">
                     <h4 class="home-title text-center" style="line-height: 1.5;">Try NEAR Promises <br> <span class="bg-gradient-to-r from-blue-400 to-blue-500">right now</span> </h4>  <br>
